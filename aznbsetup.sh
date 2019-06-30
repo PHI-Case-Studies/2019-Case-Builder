@@ -11,7 +11,7 @@ conda install -y -c conda-forge \
   osmnx=0.1* \
   geopandas=0.5*
 
-/home/nbuser/anaconda3_501/bin/deactivate
+source /home/nbuser/anaconda3_501/bin/deactivate
 
 # Activate environment
 source /home/nbuser/anaconda3_420/bin/activate
@@ -24,4 +24,4 @@ conda install -y -c conda-forge \
   osmnx=0.1* \
   geopandas=0.5*
 
-/home/nbuser/anaconda3_420/bin/deactivate
+source /home/nbuser/anaconda3_420/bin/deactivate
