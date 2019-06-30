@@ -4,7 +4,7 @@ Use this repository to build case servers in BinderHub or Microsift Azure
 [![Binder](https://beta.mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/PHI-Case-Studies/2019-Case-Builder/master) [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/PHI-Case-Studies/2019-Case-Builder)
 
 ## TLDR;
-This is a set of [Jupyter Notebooks](https://jupyter.org/) to introduce **digital case studies**. Click on the [![Binder](https://beta.mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/PHI-Case-Studies/2019-Case-Builder/master) or the [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/PHI-Case-Studies/2019-Case-Builder)link above. Wait a few minutes for the binder or Microsoft Azure Notebook to complete its setup and launch. 
+This is a set of [Jupyter Notebooks](https://jupyter.org/) to introduce **digital case studies**. Click on the BinderHub or the Azure Notebooks link above. Wait a few minutes for the binder or Microsoft Azure Notebook to complete its setup and launch. 
 
 ## For Microsoft Azure Notebook
 1. To use Microsoft Azure Notebook to launch this GitHub repository, you need to create an account at https://notebooks.azure.com.
