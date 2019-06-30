@@ -4,8 +4,7 @@
 source /home/nbuser/anaconda3_501/bin/activate
 
 # Install packages
-conda update -n base -c conda-forge conda
-conda remove -y conda-build
+conda update -n base -c conda-forge conda conda-build
 conda install -y -c conda-forge \
   folium=0.9* \
   pandas=0.24* \
@@ -18,8 +17,7 @@ conda install -y -c conda-forge \
 source /home/nbuser/anaconda3_420/bin/activate
 
 # Install packages
-conda update -n base -c conda-forge conda
-conda remove -y conda-build
+conda update -n base -c conda-forge conda conda-build
 conda install -y -c conda-forge \
   folium=0.9* \
   pandas=0.24* \
