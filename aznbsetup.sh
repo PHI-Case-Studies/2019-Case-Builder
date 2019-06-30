@@ -14,6 +14,7 @@ conda config --add channels conda-forge
 conda update -n base -c conda-forge conda conda-build
 conda install -y -c conda-forge \
   folium=0.9* \
+  jinja2=2.10* \ # needed by folium
   pandas=0.24* \
   osmnx=0.1* \
   geopandas=0.5*
@@ -34,6 +35,7 @@ conda config --add channels conda-forge
 conda update -n base -c conda-forge conda conda-build
 conda install -y -c conda-forge \
   folium=0.9* \
+  jinja2=2.10* \ # needed by folium
   pandas=0.24* \
   osmnx=0.1* \
   geopandas=0.5*
