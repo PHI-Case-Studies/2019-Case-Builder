@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Activate environment
-echo ". /home/nbuser/anaconda3_420/etc/profile.d/conda.sh" >> ~/.bashrc
 source /home/nbuser/anaconda3_420/bin/activate
 
 # Set up proxy
