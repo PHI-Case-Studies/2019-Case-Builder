@@ -11,8 +11,9 @@ source /home/nbuser/anaconda3_420/bin/activate
 
 # Install packages
 conda update -c conda-forge conda conda-build
-conda install -y -c conda-forge osmnx=0.1* 
-  
-pip install folium==0.9.1 jinja2==2.10* geopandas==0.5* pandas==0.24*
+conda install -y -c conda-forge osmnx=0.1* folium=0.9.1
+
+pip install --upgrade pip matplotlib*
+pip install pandas==0.24*
 
 source /home/nbuser/anaconda3_420/bin/deactivate
