@@ -10,8 +10,7 @@ source /home/nbuser/anaconda3_420/bin/activate
 #export https_proxy
 
 # Install packages
-conda update -n base -c conda-forge conda conda-build
-conda config --add channels conda-forge
+conda update -c conda-forge conda conda-build
 conda install -y -c conda-forge \
   folium=0.9* \
   jinja2=2.10* \ # needed by folium
