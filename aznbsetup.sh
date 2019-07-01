@@ -1,8 +1,7 @@
 #!/bin/bash
 
-conda update -n base -c conda-forge conda conda-build
 # Activate environment
-conda /home/nbuser/anaconda3_420/bin/activate
+source /home/nbuser/anaconda3_420/bin/activate
 
 # Set up proxy
 #http_proxy=http://webproxy:3128
