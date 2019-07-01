@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Activate environment
+echo ". /home/nbuser/anaconda3_420/etc/profile.d/conda.sh" >> ~/.bashrc
 source /home/nbuser/anaconda3_420/bin/activate
 
 # Set up proxy
@@ -11,11 +12,8 @@ source /home/nbuser/anaconda3_420/bin/activate
 
 # Install packages
 conda update -c conda-forge conda conda-build
-conda install -y -c conda-forge \
-  folium=0.9* \
-  jinja2=2.10* \ # needed by folium
-  pandas=0.24* \
-  osmnx=0.1* \
-  geopandas=0.5*
+conda install -y -c conda-forge osmnx=0.1* 
+  
+pip install folium==0.9.1 jinja2==2.10* geopandas==0.5* pandas==0.24*
 
-conda deactivate
+source /home/nbuser/anaconda3_420/bin/deactivate
