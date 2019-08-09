@@ -1,2 +1,2 @@
-conda install -y pandas folium=0.8* osmnx=0.9*
-pip install pylantern
+conda install -y pandas=0.25* geopandas=0.5* folium=0.10* osmnx=0.10*
+pip install --upgrade pip
